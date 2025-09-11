@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-11T18:13:59 IST" name="Suite" finished-at="2025-09-11T18:21:42 IST" duration-ms="463358">
+    <groups>
+    </groups>
+    <test started-at="2025-09-11T18:13:59 IST" name="Test" finished-at="2025-09-11T18:21:42 IST" duration-ms="463358">
+      <class name="testpkg.Search_test">
+        <test-method is-config="true" signature="start()[pri:0, instance:testpkg.Search_test@5bf0d49]" started-at="2025-09-11T18:14:04 IST" name="start" finished-at="2025-09-11T18:14:13 IST" duration-ms="8401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="test()[pri:0, instance:testpkg.Search_test@5bf0d49]" started-at="2025-09-11T18:14:13 IST" name="test" finished-at="2025-09-11T18:14:47 IST" duration-ms="34297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testpkg.Search_test -->
+      <class name="testpkg.Login_or_register_test">
+        <test-method is-config="true" signature="start()[pri:0, instance:testpkg.Login_or_register_test@74e52ef6]" started-at="2025-09-11T18:14:47 IST" name="start" finished-at="2025-09-11T18:14:55 IST" duration-ms="7472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="test()[pri:0, instance:testpkg.Login_or_register_test@74e52ef6]" started-at="2025-09-11T18:14:55 IST" name="test" finished-at="2025-09-11T18:16:39 IST" duration-ms="103871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testpkg.Login_or_register_test -->
+      <class name="testpkg.Specials_test">
+        <test-method is-config="true" signature="start()[pri:0, instance:testpkg.Specials_test@1a677343]" started-at="2025-09-11T18:16:47 IST" name="start" finished-at="2025-09-11T18:16:55 IST" duration-ms="8061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="test()[pri:0, instance:testpkg.Specials_test@1a677343]" started-at="2025-09-11T18:16:55 IST" name="test" finished-at="2025-09-11T18:17:18 IST" duration-ms="22540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testpkg.Specials_test -->
+      <class name="testpkg.Report">
+        <test-method is-config="true" signature="sam()[pri:0, instance:testpkg.Report@6ed3ccb2]" started-at="2025-09-11T18:13:59 IST" name="sam" finished-at="2025-09-11T18:14:04 IST" duration-ms="5628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sam -->
+        <test-method is-config="true" signature="eg()[pri:0, instance:testpkg.Report@6ed3ccb2]" started-at="2025-09-11T18:16:39 IST" name="eg" finished-at="2025-09-11T18:16:43 IST" duration-ms="4865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eg -->
+        <test-method signature="buttontextverification()[pri:0, instance:testpkg.Report@6ed3ccb2]" started-at="2025-09-11T18:16:43 IST" name="buttontextverification" finished-at="2025-09-11T18:16:43 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buttontextverification -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:testpkg.Report@6ed3ccb2]" started-at="2025-09-11T18:16:43 IST" name="browserclose" finished-at="2025-09-11T18:16:43 IST" duration-ms="52" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=buttontextverification status=SUCCESS method=Report.buttontextverification()[pri:0, instance:testpkg.Report@6ed3ccb2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="eg()[pri:0, instance:testpkg.Report@6ed3ccb2]" started-at="2025-09-11T18:16:43 IST" name="eg" finished-at="2025-09-11T18:16:47 IST" duration-ms="3509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eg -->
+        <test-method signature="titleverification()[pri:0, instance:testpkg.Report@6ed3ccb2]" started-at="2025-09-11T18:16:47 IST" name="titleverification" finished-at="2025-09-11T18:16:47 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleverification -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:testpkg.Report@6ed3ccb2]" started-at="2025-09-11T18:16:47 IST" name="browserclose" finished-at="2025-09-11T18:16:47 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=titleverification status=SUCCESS method=Report.titleverification()[pri:0, instance:testpkg.Report@6ed3ccb2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testpkg.Report@6ed3ccb2]" started-at="2025-09-11T18:21:41 IST" name="teardown" finished-at="2025-09-11T18:21:42 IST" duration-ms="1047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testpkg.Report -->
+      <class name="testpkg.Account_test">
+        <test-method is-config="true" signature="start()[pri:0, instance:testpkg.Account_test@15de0b3c]" started-at="2025-09-11T18:17:18 IST" name="start" finished-at="2025-09-11T18:17:24 IST" duration-ms="6796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="test()[pri:0, instance:testpkg.Account_test@15de0b3c]" started-at="2025-09-11T18:17:24 IST" name="test" finished-at="2025-09-11T18:18:36 IST" duration-ms="71250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testpkg.Account_test -->
+      <class name="testpkg.Homepage_test">
+        <test-method is-config="true" signature="start()[pri:0, instance:testpkg.Homepage_test@3857f613]" started-at="2025-09-11T18:19:06 IST" name="start" finished-at="2025-09-11T18:19:22 IST" duration-ms="15870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="test()[pri:0, instance:testpkg.Homepage_test@3857f613]" started-at="2025-09-11T18:19:22 IST" name="test" finished-at="2025-09-11T18:21:05 IST" duration-ms="103126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testpkg.Homepage_test -->
+      <class name="testpkg.Cart_test">
+        <test-method is-config="true" signature="start()[pri:0, instance:testpkg.Cart_test@489115ef]" started-at="2025-09-11T18:18:36 IST" name="start" finished-at="2025-09-11T18:18:43 IST" duration-ms="7045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="test()[pri:0, instance:testpkg.Cart_test@489115ef]" started-at="2025-09-11T18:18:43 IST" name="test" finished-at="2025-09-11T18:19:06 IST" duration-ms="23088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testpkg.Cart_test -->
+      <class name="testpkg.Checkout_test">
+        <test-method is-config="true" signature="start()[pri:0, instance:testpkg.Checkout_test@198b6731]" started-at="2025-09-11T18:21:05 IST" name="start" finished-at="2025-09-11T18:21:12 IST" duration-ms="7660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="test()[pri:0, instance:testpkg.Checkout_test@198b6731]" started-at="2025-09-11T18:21:12 IST" name="test" finished-at="2025-09-11T18:21:41 IST" duration-ms="28544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testpkg.Checkout_test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
